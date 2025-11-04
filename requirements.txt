@@ -1,0 +1,40 @@
+
+# FastAPI Integration (recommended for production REST API)
+fastapi==0.112.0
+uvicorn[standard]==0.31.1
+pydantic==2.12.3
+pydantic-settings==2.5.2
+anyio==4.5
+watchdog==3.0.0
+# Flask Integration (alternative lightweight web framework)
+flask==3.0.0
+flask-cors==4.0.0
+
+# OpenAPI/Swagger docs (included with FastAPI)
+# API documentation tools
+sphinx==7.2.6
+sphinx-rtd-theme==2.0.0
+fastmcp==2.13.0.2
+aiohttp
+# ============================================================================
+# OPTIONAL: Configuration Management
+# ============================================================================
+
+# Environment variables
+python-dotenv==1.1.0
+
+# Configuration files
+pyyaml==6.0.1
+toml==0.10.2
+
+# ============================================================================
+# OPTIONAL: Security
+# ============================================================================
+
+# Password hashing
+passlib==1.7.4
+bcrypt==4.1.1
+
+# JWT tokens
+pyjwt==2.8.0
+python-jose==3.3.0
