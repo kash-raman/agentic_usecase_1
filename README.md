@@ -11,13 +11,16 @@ Here are 3 potential solutions - with C4 model.
 ### Solution 1: Sequential Agent Collaboration
 This model follows a clear, top-down structure where specialized agents handle individual document analysis and report to a supervising agent for a final decision.
 
+![Solution1](./option1.png)
+
 
 ### Solution 2: Centralized Data Hub with a Coordinator Agent
 In this approach, a central repository holds the extracted information, and a coordinator agent orchestrates the verification process, allowing for more parallel processing.
-
+![Solution2](./option2.png)
 
 ### Solution 3: Event-Driven Architecture with an Event Bus 
 This sophisticated model uses a message broker to decouple the agents, allowing for a highly scalable and resilient system.
+![Solution3](./option3.png)
 
 ## Trade Off
 
